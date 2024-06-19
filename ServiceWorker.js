@@ -1,4 +1,4 @@
-const cacheName = "Senai SC-ProtoLabDigital-0.2.1";
+const cacheName = "Senai SC-ProtoLabDigital-0.2.2";
 const contentToCache = [
     "Build/protolabdigital.loader.js",
     "Build/protolabdigital.framework.js.unityweb",
