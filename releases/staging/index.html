@@ -18,7 +18,6 @@
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Tela Cheia</div>
       </div>
@@ -57,15 +56,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/protolabdigital.loader.js";
+      var loaderUrl = buildUrl + "/staging.loader.js";
       var config = {
-        dataUrl: buildUrl + "/protolabdigital.data.unityweb",
-        frameworkUrl: buildUrl + "/protolabdigital.framework.js.unityweb",
-        codeUrl: buildUrl + "/protolabdigital.wasm.unityweb",
+        dataUrl: buildUrl + "/staging.data.unityweb",
+        frameworkUrl: buildUrl + "/staging.framework.js.unityweb",
+        codeUrl: buildUrl + "/staging.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Senai SC",
         productName: "Laboratório Digital",
-        productVersion: "0.3.7b",
+        productVersion: "0.4.3",
         showBanner: unityShowBanner,
       };
 
